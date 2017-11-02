@@ -28,6 +28,8 @@ Min 是一套面向小程序的开发环境，提供 [Min Cli](https://github.co
 
 <img width="200" src="https://s10.mogucdn.com/mlcdn/c45406/171101_6k682blbc5j30lj08galbk1k0g95h_1280x1280.jpg" style="display:block;margin:0 auto;" />
 
+> 注：如提示“小程序尚未发布”，就再等等再扫 :p
+
 #### 本地体验
 
 1. Clone MinUI 仓库到本地；
