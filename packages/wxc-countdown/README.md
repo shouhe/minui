@@ -23,6 +23,6 @@ $ min install @minui/wxc-countdown
 
 ##  ChangeLog
 
-#### v1.0.1（2017.10.24）
+#### v1.0.0（2017.10.24）
 
 - 初始版本
