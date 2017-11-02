@@ -42,9 +42,9 @@ PS：如想尝试修改源码，终端里先执行 `$ min dev`。这样任何的
 
 #### 开发&应用
 
-如要基于 MinUI 进行二次开发，完善属于您项目的组件化体系，请移步至 Min 的使用文档 —— “组件开发” 环节。
+如要基于 MinUI 进行二次开发，完善属于您项目的组件化体系，请移步至 [Min 的使用文档](https://github.com/meili/min-cli/blob/master/README.md) —— “组件开发” 环节。
 
-如要在既有小程序项目中，使用 Min 提供的组件安装和更新能力，请移步至 Min 的使用文档 —— “组件应用” 环节。
+如要在既有小程序项目中，使用 Min 提供的组件安装和更新能力，请移步至 [Min 的使用文档](https://github.com/meili/min-cli/blob/master/README.md) —— “组件应用” 环节。
 
 ### ○ 组件列表
 
