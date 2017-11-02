@@ -1,0 +1,37 @@
+<template>
+  <view class="user">
+    <image class="user__avatar" src="https://s10.mogucdn.com/mlcdn/c45406/171019_20e8ac6bcjb67f9i8b88j2aiiil03_200x200.jpg"></image>
+    <wxc-badge class="user__un-read-msg-count" max="99" value="230"></wxc-badge>
+  </view>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-badge': '@minui/wxc-badge'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+  .user {
+    width: 100rpx;
+    height: 100rpx;
+    position: relative;
+  }
+  .user__avatar {
+    display: block;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+  }
+  .user__un-read-msg-count {
+    position: absolute;
+    top: -16rpx;
+    right: -18rpx;
+  }
+</style>

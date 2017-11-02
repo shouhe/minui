@@ -1,0 +1,28 @@
+{
+  "demos": [
+    {
+      "id": "default",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_61egciej99b393769cl40d6c79jl8_400x300.png"
+      ]
+    },
+    {
+      "id": "color",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_4al4h537iibhg1cd931c67b686570_400x300.png"
+      ]
+    },
+    {
+      "id": "disabled",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_1a1298ead09477jehiccb519kf58b_400x300.png"
+      ]
+    },
+    {
+      "id": "callback",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_0aa4hbc4kii0db1hldkcdgakd53d2_400x300.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<template>
+  <wxc-mask status="{{maskStatus}}" content-align="bl">
+    <view class="mask-demo_content">定位到页面左下角</view>
+  </wxc-mask>
+
+  <button bindtap="showMask">子节点定位</button>
+</template>
+
+
+<script>
+  export default {
+    config: {
+      usingComponents: {
+        'wxc-mask': '@minui/wxc-mask'
+      }
+    },
+
+    data: {
+      maskStatus: 'hide'
+    },
+
+    methods: {
+      showMask() {
+        this.setData({
+          maskStatus: 'show'
+        })
+      }
+    }
+  }
+</script>
+
+<style>
+  .mask-demo_content {
+    width: 350rpx;
+    padding: 20rpx;
+    background: #FFF;
+    color: #000;
+  }
+</style>

@@ -1,0 +1,23 @@
+<template>
+  <wxc-loadmore
+    is-end="{{true}}"
+    text="到底啦"
+    icon="https://s10.mogucdn.com/mlcdn/c45406/171016_47j96cl3hdhhdf7ajg8hg2kd13gdc_400x400.png"
+  >
+  </wxc-loadmore>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-loadmore': '@minui/wxc-loadmore'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+</style>

@@ -1,0 +1,41 @@
+<template>
+  <wxc-loading
+    is-show="{{$loading.isShow}}"
+    type="mall"
+  ></wxc-loading>
+  <button bindtap="showLoading">show loading</button>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-loading': '@minui/wxc-loading'
+    }
+  },
+  data: {
+    $loading: {
+      isShow: false
+    }
+  },
+  methods: {
+    showLoading() {
+      this.setData({
+        $loading: {
+          isShow: true
+        }
+      })
+      setTimeout(() => {
+        this.setData({
+          $loading: {
+            isShow: false
+          }
+        })
+      }, 1000)
+    }
+  }
+}
+</script>
+
+<style>
+</style>

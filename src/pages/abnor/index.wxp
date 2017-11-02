@@ -1,0 +1,86 @@
+<template>
+  <example title="abnor" desc="异常流展示">
+
+    <example-demo title="REQUEST_ERROR" desc="网络异常状态，默认配置了按钮，需要添加事件">
+      <demo-default></demo-default>
+    </example-demo>
+
+    <example-demo title="NOT_FOUND" desc="页面不存在，默认配置了按钮，需要添加事件">
+      <demo-not-found></demo-not-found>
+    </example-demo>
+
+    <example-demo title="自定义数据" desc="自定义属性。自定义属性的优先级高于type">
+      <demo-custom></demo-custom>
+    </example-demo>
+
+    <example-demo title="DATA" desc="数据为空">
+      <demo-data></demo-data>
+    </example-demo>
+
+    <example-demo title="FOLLOW" desc="无关注状态">
+      <demo-follow></demo-follow>
+    </example-demo>
+
+    <example-demo title="FEED" desc="无反馈状态">
+      <demo-feed></demo-feed>
+    </example-demo>
+
+    <example-demo title="SHOP" desc="找不到相关店铺">
+      <demo-shop></demo-shop>
+    </example-demo>
+
+    <example-demo title="SEARCH" desc="没有找到相关商品">
+      <demo-search></demo-search>
+    </example-demo>
+
+    <example-demo title="MESSAGE" desc="消息通知空状态">
+      <demo-message></demo-message>
+    </example-demo>
+
+    <example-demo title="ORDER" desc="空订单列表状态">
+      <demo-order></demo-order>
+    </example-demo>
+
+    <example-demo title="CART" desc="空购物车状态">
+      <demo-cart></demo-cart>
+    </example-demo>
+
+    <example-demo title="FOOTPRINT" desc="空足迹状态">
+      <demo-footprint></demo-footprint>
+    </example-demo>
+
+    <example-demo title="COUPON" desc="无优惠券状态">
+      <demo-coupon></demo-coupon>
+    </example-demo>
+
+  </example>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'example': '@minui/wxc-example',
+      'example-demo': '@minui/wxc-example-demo',
+      'example-md': '@minui/wxc-example-md',
+      'demo-default': './demos/demo-default',
+      'demo-not-found': './demos/demo-not-found',
+      'demo-data': './demos/demo-data',
+      'demo-follow': './demos/demo-follow',
+      'demo-feed': './demos/demo-feed',
+      'demo-shop': './demos/demo-shop',
+      'demo-search': './demos/demo-search',
+      'demo-message': './demos/demo-message',
+      'demo-order': './demos/demo-order',
+      'demo-cart': './demos/demo-cart',
+      'demo-footprint': './demos/demo-footprint',
+      'demo-coupon': './demos/demo-coupon',
+      'demo-custom': './demos/demo-custom',
+    }
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

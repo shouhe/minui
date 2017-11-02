@@ -1,0 +1,142 @@
+<template>
+
+  <view class="index-hd">
+    <image class="index-logo" src="https://s10.mogucdn.com/mlcdn/c45406/171016_6d1e81fc4f85i4099hll34k8k2j77_356x356.png"></image>
+    <view class="index-desc">色彩运用规范，以下就主要文字用色</view>
+    <view class="index-desc">与背景等基本用色做说明。</view>
+  </view>
+
+  <view class="section">
+    <wxc-flex class="wrap" cross="top" wrap="wrap">
+      <view class="item">
+        <view class="item__color item__color--brand"></view>
+        <view class="item_intro">#FF0077</view>
+        <view class="item_intro">品牌色</view>
+        <view class="item_intro--small">用于品牌主色</view>
+      </view>
+
+      <view class="item">
+        <view class="item__color item__color--control"></view>
+        <view class="item_intro">#FF5777</view>
+        <view class="item_intro">控件色</view>
+        <view class="item_intro--small">用于按钮／小标签</view>
+      </view>
+
+      <view class="item">
+        <view class="item__color item__color--topic"></view>
+        <view class="item_intro">#333333</view>
+        <view class="item_intro">主标颜色</view>
+        <view class="item_intro--small">用于商品名／一级标题</view>
+      </view>
+
+      <view class="item">
+        <view class="item__color item__color-secondary"></view>
+        <view class="item_intro">#666666</view>
+        <view class="item_intro">次标颜色</view>
+        <view class="item_intro--small">用于 tab 栏文字色</view>
+      </view>
+
+      <view class="item">
+        <view class="item__color item__color--prompt"></view>
+        <view class="item_intro">#999999</view>
+        <view class="item_intro">暗提示色</view>
+        <view class="item_intro--small">用于补充性文案</view>
+      </view>
+
+      <view class="item">
+        <view class="item__color item__color--split"></view>
+        <view class="item_intro">#ECECEC</view>
+        <view class="item_intro">分割线色</view>
+        <view class="item_intro--small">用于补充性文案</view>
+      </view>
+
+      <view class="item">
+        <view class="item__color item__color--background"></view>
+        <view class="item_intro">#EFEFEF</view>
+        <view class="item_intro">背景色</view>
+        <view class="item_intro--small">用于补充性文案</view>
+      </view>
+
+      <view class="item">
+        <view class="item__color item__color--prompt-bg"></view>
+        <view class="item_intro">#FFE8EE</view>
+        <view class="item_intro">提示底色</view>
+        <view class="item_intro--small">适用于提示性文案底部</view>
+      </view>
+
+    </wxc-flex>
+  </view>
+
+
+</template>
+
+<script>
+  export default {
+    config: {
+      usingComponents: {
+        'wxc-flex': '@minui/wxc-flex'
+      }
+    },
+    data: {},
+    methods: {}
+  }
+
+</script>
+
+<style>
+  @import "assets/style/layout.wxss";
+
+  .section {
+    padding: 0 20rpx 80rpx;
+  }
+
+  .wrap {
+    display: block;
+  }
+  .item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 28%;
+    margin: 2.5%;
+  }
+  .item_intro {
+    font-size: 24rpx;
+    color: #666666;
+    text-align: center;
+  }
+  .item_intro--small {
+    font-size: 20rpx;
+    color: #888888;
+    text-align: center;
+  }
+  .item__color {
+    width: 100%;
+    height: 200rpx;
+    margin-bottom: 10rpx;
+  }
+  .item__color--brand {
+    background: #ff0077;
+  }
+  .item__color--control {
+    background: #ff5777;
+  }
+  .item__color--topic {
+    background: #333333;
+  }
+  .item__color-secondary {
+    background: #666666;
+  }
+  .item__color--prompt {
+    background: #999999;
+  }
+  .item__color--split {
+    background: #ececec;
+  }
+  .item__color--background {
+    background: #efefef;
+  }
+  .item__color--prompt-bg {
+    background: #ffe8ee;
+  }
+
+</style>

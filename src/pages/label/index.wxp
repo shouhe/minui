@@ -1,0 +1,46 @@
+<template>
+  <example title="label" desc="标签">
+
+    <example-demo title="默认用法" desc="">
+      <demo-plain></demo-plain>
+    </example-demo>
+
+    <example-demo title="属性传值" desc="">
+      <demo-value></demo-value>
+    </example-demo>
+
+    <example-demo title="非镂空状态" desc="">
+      <demo-fill></demo-fill>
+    </example-demo>
+
+    <example-demo title="自定义色值" desc="">
+      <demo-custom></demo-custom>
+    </example-demo>
+
+    <example-demo title="图片角标" desc="">
+      <demo-corner></demo-corner>
+    </example-demo>
+
+  </example>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'example': '@minui/wxc-example',
+      'example-demo': '@minui/wxc-example-demo',
+      'example-md': '@minui/wxc-example-md',
+      'demo-plain': './demos/demo-plain',
+      'demo-value': './demos/demo-value',
+      'demo-fill': './demos/demo-fill',
+      'demo-custom': './demos/demo-custom',
+      'demo-corner': './demos/demo-corner'
+    }
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

@@ -1,0 +1,27 @@
+<template>
+  <wxc-abnor
+    type="REQUEST_ERROR"
+    bind:abnortap="onAbnorTap"></wxc-abnor>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-abnor': '@minui/wxc-abnor'
+    }
+  },
+  data: {},
+  methods: {
+    onAbnorTap() {
+      wx.showToast({
+        title: 'success',
+        duration: 2000
+      });
+    }
+  }
+}
+</script>
+
+<style>
+</style>

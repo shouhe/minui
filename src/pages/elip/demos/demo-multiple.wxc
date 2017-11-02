@@ -1,0 +1,18 @@
+<template>
+  <wxc-elip line="2">这是一段 2 行截断的文字。这是一段 2 行截断的文字。这是一段 2 行截断的文字。这是一段 2 行截断的文字。这是一段 2 行截断的文字。这是一段 2 行截断的文字。</wxc-elip>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-elip': '@minui/wxc-elip'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+</style>

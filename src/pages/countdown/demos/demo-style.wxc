@@ -1,0 +1,22 @@
+<template>
+    <wxc-countdown countdown="{{countdown}}" num-style="{{numStyle}}" symbol-style="{{symbolStyle}}"></wxc-countdown>
+</template>
+
+<script>
+    export default {
+        config: {
+            usingComponents: {
+                'wxc-countdown': '@minui/wxc-countdown'
+            }
+        },
+        data: {
+            countdown: 100,
+            numStyle: 'width: 48rpx; font-size: 28rpx; color: #ffffff; background: #000; text-align: center; border-radius: 8rpx; padding: 5rpx 0;',
+            symbolStyle: 'font-size: 28rpx; color: #000; padding: 0 12rpx;'
+        },
+        methods: {}
+    }
+</script>
+
+<style>
+</style>

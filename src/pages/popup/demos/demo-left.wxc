@@ -1,0 +1,38 @@
+<template>
+  <button bindtap="showPopup">居左，有动画</button>
+
+  <wxc-popup class="J_Popup" animation-mode="left" align="left">
+    <view class="popup__content">Hello World</view>
+  </wxc-popup>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-popup': '@minui/wxc-popup'
+    }
+  },
+  data: {},
+  methods: {
+    showPopup() {
+      let popupComponent = this.selectComponent('.J_Popup');
+      popupComponent && popupComponent.show();
+    },
+    hidePopup() {
+      let popupComponent = this.selectComponent('.J_Popup');
+      popupComponent && popupComponent.hide();
+    }
+  }
+}
+</script>
+
+<style>
+  .popup__content {
+    width: 300rpx;
+    height: 100%;
+    line-height: 400rpx;
+    background: #ffffff;
+    text-align: center;
+  }
+</style>

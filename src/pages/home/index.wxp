@@ -1,0 +1,61 @@
+<template>
+  <view class="index">
+    <view class="index-hd">
+      <image class="index-logo" src="https://s10.mogucdn.com/mlcdn/c45406/171016_6d1e81fc4f85i4099hll34k8k2j77_356x356.png"></image>
+      <view class="index-desc">基于规范的小程序组件库，简洁、轻量、工具化</view>
+    </view>
+
+    <view class="index-bd">
+      <view class="kind-list">
+        <block wx:for-items="{{menus}}" wx:key="{{item.id}}">
+          <view class="kind-list-item">
+            <view id="{{item.id}}" class="kind-list-item-hd {{item.open ? 'kind-list-item-hd-show' : ''}}" bindtap="kindToggle">
+              <view class="kind-list-text">{{item.name}}</view>
+              <image class="kind-list-img" src="{{item.icon}}"></image>
+            </view>
+            <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
+              <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
+                <block wx:for-items="{{item.pages}}" wx:for-item="page" wx:key="*item">
+                  <navigator url="/pages/{{page.id}}/index" class="navigator">
+                    <view class="navigator-text">{{page.id}}</view>
+                    <view class="navigator-arrow"></view>
+                  </navigator>
+                </block>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+</template>
+
+<script>
+import config from './config'
+let { menus } = config
+
+export default {
+  data: {
+    menus
+  },
+  kindToggle: function (e) {
+    const { id } = e.currentTarget
+    const { menus } = this.data
+    for (let index = 0; index < menus.length; index++) {
+      let menu = menus[index]
+      if (menu.id == id) {
+        menu.open = !menu.open
+      } else {
+        menu.open = false
+      }
+    }
+    this.setData({
+      menus
+    })
+  }
+}
+</script>
+
+<style>
+@import "assets/style/layout.wxss";
+</style>

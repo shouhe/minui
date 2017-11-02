@@ -1,0 +1,56 @@
+<template>
+  <example title="flex" desc="flex 容器">
+
+    <example-demo title="主轴方向" desc="项目的排列方向">
+      <demo-dir></demo-dir>
+    </example-demo>
+
+    <example-demo title="主轴排列" desc="项目在主轴上的对齐方式">
+      <demo-main></demo-main>
+    </example-demo>
+
+    <example-demo title="换行选项" desc="如果一条轴线排不下，如何换行">
+      <demo-wrap></demo-wrap>
+    </example-demo>dir
+
+    <example-demo title="交叉轴排列" desc="项目在交叉轴上如何对齐">
+      <demo-cross></demo-cross>
+    </example-demo>
+
+    <example-demo title="常见布局 - 水平垂直居中">
+      <demo-cc></demo-cc>
+    </example-demo>
+
+    <example-demo title="常见布局 - 列表">
+      <demo-list></demo-list>
+    </example-demo>
+
+    <example-demo title="常见布局 - 定宽+弹性宽度">
+      <demo-layout></demo-layout>
+    </example-demo>
+
+  </example>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'example': '@minui/wxc-example',
+      'example-demo': '@minui/wxc-example-demo',
+      'example-md': '@minui/wxc-example-md',
+      'demo-dir': './demos/demo-dir',
+      'demo-main': './demos/demo-main',
+      'demo-wrap': './demos/demo-wrap',
+      'demo-cross': './demos/demo-cross',
+      'demo-cc': './demos/demo-cc',
+      'demo-list': './demos/demo-list',
+      'demo-layout': './demos/demo-layout'
+    }
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

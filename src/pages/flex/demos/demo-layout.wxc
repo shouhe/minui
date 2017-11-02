@@ -1,0 +1,40 @@
+<template>
+  <wxc-flex class="wrap">
+    <view class="item side">固定宽度</view>
+    <view class="item main">弹性宽度</view>
+  </wxc-flex>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-flex': '@minui/wxc-flex'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+  .wrap {
+    display: block;
+    height: 300rpx;
+    background: #696969;
+  }
+  .item {
+    font-size: 20rpx;
+    line-height: 300rpx;
+    text-align: center;
+  }
+  .side {
+    width: 200rpx;
+    background: #afdde3;
+    flex-grow: 0;
+  }
+  .main {
+    background: #f397b2;
+    flex-grow: 1;
+  }
+</style>

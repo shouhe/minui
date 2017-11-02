@@ -1,0 +1,83 @@
+<template>
+
+  <view class="index-hd">
+    <image class="index-logo" src="https://s10.mogucdn.com/mlcdn/c45406/171016_6d1e81fc4f85i4099hll34k8k2j77_356x356.png"></image>
+    <view class="index-desc">常用字号为 36, 32, 28, 24, 22, 20(rpx)</view>
+  </view>
+
+  <view class="section">
+
+    <view class="item">
+      <view class="intro">设计标准字体：苹方 PingFang Regular/Medium，</view>
+      <view class="intro">粗细按照页面需求选择，默认行高为 1.5 倍。</view>
+    </view>
+
+    <view class="item">
+      <view style="font-size: 36rpx;">字号36rpx</view>
+      <view class="info">一般用于价格</view>
+    </view>
+
+    <view class="item">
+      <view style="font-size: 32rpx">字号32rpx</view>
+      <view class="info">一般用于价格</view>
+    </view>
+
+    <view class="item">
+      <view style="font-size: 28rpx">字号28rpx</view>
+      <view class="info">一般用于商品名／商品标题</view>
+    </view>
+
+    <view class="item">
+      <view style="font-size: 24rpx">字号24rpx</view>
+      <view class="info">一般用于副标题／形容性文案／正文</view>
+    </view>
+
+    <view class="item">
+      <view style="font-size: 22rpx">字号22rpx</view>
+      <view class="info">一般用于销售量／关注人数／参与人数等补充</view>
+    </view>
+
+    <view class="item">
+      <view style="font-size: 20rpx">字号20rpx</view>
+      <view class="info">一般用于标签内文字</view>
+    </view>
+
+  </view>
+
+
+</template>
+
+<script>
+  export default {
+    config: {
+      usingComponents: {}
+    },
+    data: {},
+    methods: {}
+  }
+
+</script>
+
+<style>
+  @import "assets/style/layout.wxss";
+
+  .section {
+    padding: 60rpx 80rpx 80rpx;
+    border-top: 1px solid #ececec;
+  }
+
+  .item {
+    margin-bottom: 50rpx;
+    font-family: PingFangSC;
+  }
+
+  .intro {
+    font-size: 24rpx;
+    color: #333333;
+  }
+  .info {
+    font-size: 22rpx;
+    color: #666666;
+  }
+
+</style>

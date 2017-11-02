@@ -1,0 +1,23 @@
+<template>
+  <wxc-label class="label" text="双11价"></wxc-label>
+  <wxc-label class="label" text="限时折扣"></wxc-label>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-label': '@minui/wxc-label',
+      'wxc-icon': '@minui/wxc-icon'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+  .label {
+    margin-right: 20rpx;
+  }
+</style>

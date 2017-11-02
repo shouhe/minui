@@ -1,0 +1,36 @@
+<template>
+  <view class="message">
+    <image class="message__avatar" src="https://s10.mogucdn.com/mlcdn/c45406/171019_7i7cf28a75h4jac3hidkc4c3j4e7i_200x200.png"></image>
+    <wxc-badge class="message__badge">new</wxc-badge>
+  </view>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-badge': '@minui/wxc-badge'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+  .message {
+    width: 100rpx;
+    height: 100rpx;
+    position: relative;
+  }
+  .message__avatar {
+    display: block;
+    width: 100rpx;
+    height: 100rpx;
+  }
+  .message__badge {
+    position: absolute;
+    top: -16rpx;
+    right: -18rpx;
+  }
+</style>

@@ -1,0 +1,87 @@
+<template>
+  <wxc-tab
+    bind:tabchange="onClick"
+    default-index="{{activeKey}}"
+    component-id="c3"
+    animate="{{true}}"
+    class="demo-tab"
+  >
+  <view slot="tablabel">
+    <wxc-tab-label
+      wx:for="{{tabs}}"
+      wx:for-item="tab"
+      wx:key="{{tab.title}}"
+      tab-index="{{index}}"
+      component-id="c3"
+    >
+      <view class="demo-tab__label">
+        <icon type="success" size="16"
+          color="{{ activeKey === index ? '#ff5777' : '#555' }}"
+        >
+        </icon>
+        <view class="demo-tab__text {{ activeKey === index ? 'demo-tab--active' : ''}}">
+          {{tab.title}}
+        </view>
+      </view>
+    </wxc-tab-label>
+  </view>
+
+  <wxc-tab-panel
+    wx:for="{{tabs}}"
+    wx:for-item="tab"
+    wx:key="{{tab.content}}"
+    tab-index="{{index}}"
+    component-id="c3"
+  >
+    {{tab.content}}
+  </wxc-tab-panel>
+
+  </wxc-tab>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-tab': '@minui/wxc-tab',
+      'wxc-tab-panel': '@minui/wxc-tab/panel',
+      'wxc-tab-label': '@minui/wxc-tab/label'
+    }
+  },
+  data: {
+    tabs: [
+      {title: '选项一', content: '内容一'},
+      {title: '选项二', content: '内容二'},
+      {title: '选项三', content: '内容三'}
+    ],
+    activeKey: 0
+  },
+  methods: {
+    onClick: function(e) {
+      console.log(`ComponentId:${e.detail.componentId},you selected:${e.detail.key}`);
+      const idx = e.detail.key;
+      this.setData({
+        activeKey: idx
+      });
+    }
+  }
+}
+</script>
+
+<style lang="pcss">
+@b demo-tab {
+  @e label {
+    width: 100%;
+    margin: 20rpx 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @e text {
+    margin-left: 8rpx;
+  }
+  @m active {
+    color: #ff5777;
+  }
+}
+</style>

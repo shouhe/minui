@@ -1,0 +1,47 @@
+<template>
+  <wxc-mask status="{{maskStatus}}" locked="true">
+    <view class="mask-demo_content">
+      <button bindtap="hideMask">点击我关闭</button>
+    </view>
+  </wxc-mask>
+
+  <button bindtap="showMask">锁定的遮罩层</button>
+</template>
+
+
+<script>
+  export default {
+    config: {
+      usingComponents: {
+        'wxc-mask': '@minui/wxc-mask'
+      }
+    },
+
+    data: {
+      maskStatus: 'hide'
+    },
+
+    methods: {
+      showMask() {
+        this.setData({
+          maskStatus: 'show'
+        })
+      },
+      hideMask() {
+        this.setData({
+          maskStatus: 'hide'
+        })
+      }
+    }
+  }
+</script>
+
+<style>
+  .mask-demo_content {
+    width: 350rpx;
+    margin: 400rpx 0 0 180rpx;
+    padding: 20rpx;
+    background: #FFF;
+    color: #000;
+  }
+</style>

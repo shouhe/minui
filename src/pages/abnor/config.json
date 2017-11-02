@@ -1,0 +1,82 @@
+{
+  "demos": [
+    {
+      "id": "default",
+      "images": [
+        "https://s10.mogucdn.com//mlcdn/c45406/171019_6kccj6b8cejjfe6k8h3dbkfj3h1jk_600x598.png"
+      ]
+    },
+    {
+      "id": "not-found",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_4a18b5d0kcfff89e6ib1gdi14a7b9_598x620.png"
+      ]
+    },
+    {
+      "id": "custom",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_661kee1k5dle01336863l4gei0k86_598x618.png"
+      ]
+    },
+    {
+      "id": "data",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_027h7d67da5kc0a7df20a3cl9ga1h_600x618.png"
+      ]
+    },
+    {
+      "id": "follow",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_4jahc3d4c23c417i9gdac2k46d0ij_600x620.png"
+      ]
+    },
+    {
+      "id": "feed",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_8e181fbgca463j7j38bj7i10gc29e_600x618.png"
+      ]
+    },
+    {
+      "id": "shop",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_4d49lgfca8clc5iee2hd78jbl4020_600x618.png"
+      ]
+    },
+    {
+      "id": "search",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_891gdjd9g1ai248848c152jlk90c8_600x618.png"
+      ]
+    },
+    {
+      "id": "message",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_55267cl6ef85dhdd840ii9g1j0l01_600x620.png"
+      ]
+    },
+    {
+      "id": "order",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_60d32gjh409a876elle78hl2fd4dc_598x618.png"
+      ]
+    },
+    {
+      "id": "cart",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_2152ibaaghg41aa34l7l96ada0g07_598x620.png"
+      ]
+    },
+    {
+      "id": "footprint",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_7kkf99fd2563ai63jbh3kga2i2l65_598x616.png"
+      ]
+    },
+    {
+      "id": "coupon",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_5lg7c51ja7lda9e8b9k0k37hh67g4_598x618.png"
+      ]
+    }
+  ]
+}

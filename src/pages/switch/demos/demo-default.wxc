@@ -1,0 +1,22 @@
+<template>
+  <wxc-switch class="item"></wxc-switch>
+  <wxc-switch class="item" checked="true"></wxc-switch>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-switch': '@minui/wxc-switch'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+  .item {
+    margin-right: 10rpx;
+  }
+</style>

@@ -1,0 +1,128 @@
+<template>
+
+  <view class="index-hd">
+    <image class="index-logo"
+           src="https://s10.mogucdn.com/mlcdn/c45406/171016_6d1e81fc4f85i4099hll34k8k2j77_356x356.png"></image>
+    <view class="index-desc">Min Dev 令组件的开发和使用变得愉悦</view>
+  </view>
+
+  <view class="title--h2">○ 组件开发</view>
+
+  <view class="section">
+    <view class="section__p">☞ 安装 Min Cli</view>
+    <view class="code">
+      <view class="code__line">$ npm i -g @mindev/min-cli</view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section__p">☞ 创建本地组件开发工程环境。</view>
+    <view class="code">
+      <view class="code__line">$ cd ~/your-project</view>
+      <view class="code__line">$ min init</view>
+    </view>
+    <view class="section__p">创建完毕后，在 "微信开发者工具" 中新建一个小程序项目，项目目录指向新建工程里的 dist/ 文件夹。如此，组件就能在开发者工具中进行预览了。</view>
+  </view>
+
+  <view class="section">
+    <view class="section__p">☞ 新建一个名为 hello-world 的组件</view>
+    <view class="npm">
+      <view class="code">$ min new hello-world</view>
+    </view>
+    <view class="section__p">开启对 hello-world 组件的改动监听，任何改动都会触发实时编译，并在 "微信开发者" 工具中显示改动后的效果。</view>
+    <view class="npm">
+      <view class="code">$ min dev hello-world</view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section__p">☞ 发布 hello-world 组件到 npm</view>
+    <view class="npm">
+      <view class="code">$ min publish hello-world</view>
+    </view>
+  </view>
+
+  <view class="title--h2">○ 组件使用</view>
+
+  <view class="section">
+    <view class="section__p">☞ 进入您要使用组件的小程序目录。</view>
+    <view class="code">
+      <view class="code__line">$ cd your-folder</view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section__p">☞ 安装组件，以文字截断组件＜wxc-elip＞为例。</view>
+    <view class="code">
+      <view class="code__line">$ min install @minui/wxc-elip</view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section__p">☞ 在页面中引入和使用＜wxc-elip＞＜/wxc-elip＞。</view>
+    <view class="code">
+      <view class="code__line code__line__comment"> // page.json </view>
+      <view class="code__line"> "usingComponents": { </view>
+      <view class="code__line code__line__indent--2-space"> "wxc-elip": "@minui/wxc-elip" </view>
+      <view class="code__line"> } </view>
+    </view>
+
+    <view class="code">
+      <view class="code__line code__line__comment"> // page.wxml </view>
+      <view class="code__line"> ... </view>
+      <view class="code__line"> ＜wxc-elip line="3"＞要被自动截断的文案＜/wxc-elip＞</view>
+      <view class="code__line"> ... </view>
+    </view>
+  </view>
+
+  <view class="title--h2">○ 更多姿势</view>
+
+  <view class="section">
+    <view class="section__p">以上是组件开发和使用的基本文档。除此之外，Min Dev 还支持引入 npm 包、多文件监听、全局监听、全局变量、全局模板、页面级单文件开发、引用路径 Resolve 等能力。</view>
+    <view class="section__p">更多介绍，可移步至 Github 查看 ☞ https://github.com/meili/min-cli</view>
+  </view>
+
+</template>
+
+<script>
+  export default {}
+</script>
+
+<style>
+  @import "assets/style/layout.wxss";
+
+  .section {
+    padding: 20rpx 40rpx;
+  }
+
+  .title--h2 {
+    line-height: 70rpx;
+    margin: 20rpx 40rpx;
+    font-size: 32rpx;
+    font-weight: bold;
+    border-bottom: 1px solid #d2d2d2;
+  }
+
+  .section__p {
+    font-size: 26rpx;
+    margin-bottom: 20rpx;
+  }
+  .section__p__notice {
+    margin: 20rpx 40rpx;
+  }
+
+  .code {
+    padding: 15rpx;
+    margin-bottom: 20rpx;
+    background: #222222;
+    color: #FFFFFF;
+    font-size: 20rpx;
+    font-family: Monaco;
+  }
+  .code__line__indent--2-space {
+    text-indent: 40rpx;
+  }
+  .code__line__comment {
+    color: #666666;
+  }
+</style>

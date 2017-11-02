@@ -1,0 +1,42 @@
+<template>
+  <wxc-toast
+    is-show="{{$toast.show}}"
+    icon="yes"
+    >分享成功</wxc-toast>
+  <button bindtap="showToast">一个带 icon 的 toast</button>
+</template>
+
+<script>
+  export default {
+    config: {
+      usingComponents: {
+        'wxc-toast': '@minui/wxc-toast'
+      }
+    },
+    data: {
+      $toast: {
+        show: false
+      }
+    },
+
+    methods: {
+      showToast() {
+        this.setData({
+          $toast: {
+            show: true
+          }
+        })
+        setTimeout(() => {
+          this.setData({
+          $toast: {
+            show: false
+          }
+        })
+      }, 1500)
+      }
+    }
+  }
+</script>
+
+<style>
+</style>

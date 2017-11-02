@@ -1,0 +1,28 @@
+{
+  "demos": [
+    {
+      "id": "default",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171019_3c5a99ba7hl6ii99713g8d1ih4i81_144x58.jpg"
+      ]
+    },
+    {
+      "id": "disable",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171019_4c4f73h6gi7ka6f4g74eilgfk596i_160x52.jpg"
+      ]
+    },
+    {
+      "id": "max",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171019_41h62h158dhl5ebi2d9icd2i4ghb6_144x52.jpg"
+      ]
+    },
+    {
+      "id": "min",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171019_3j54i29hb42a1h4070d4e86jh755f_144x54.jpg"
+      ]
+    }
+  ]
+}

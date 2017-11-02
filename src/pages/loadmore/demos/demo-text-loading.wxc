@@ -1,0 +1,22 @@
+<template>
+  <wxc-loadmore
+    text="正在努力加载中..."
+    icon="{{true}}"
+  >
+  </wxc-loadmore>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-loadmore': '@minui/wxc-loadmore'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+</style>

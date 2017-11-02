@@ -1,0 +1,17 @@
+<template>
+  <view>
+    <image class="banner" mode="widthFix" src="http://img.zcool.cn/community/016371583d1cdba8012060c8047065.jpg@1280w_1l_2o_100sh.png"></image>
+  </view>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+.banner {
+  width: 100%;
+}
+</style>

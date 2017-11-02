@@ -1,0 +1,28 @@
+{
+    "demos": [
+        {
+            "id": "default",
+            "images": [
+                "https://s10.mogucdn.com/mlcdn/c45406/171019_0hl990d5d59aa1ellakj93d39chjk_610x50.png"
+            ]
+        },
+        {
+            "id": "format",
+            "images": [
+                "https://s10.mogucdn.com/mlcdn/c45406/171019_427fgl911h8ikk2g0ci2khk05j3a8_604x50.png"
+            ]
+        },
+        {
+            "id": "style",
+            "images": [
+                "https://s10.mogucdn.com/mlcdn/c45406/171019_0j42kjf2l13fd536ig6cj4i0k02e5_610x58.png"
+            ]
+        },
+        {
+            "id": "event",
+            "images": [
+                "https://s10.mogucdn.com/mlcdn/c45406/171020_6gc6kccakad75l1cf25a8h9bc23j8_604x184.png"
+            ]
+        }
+    ]
+}

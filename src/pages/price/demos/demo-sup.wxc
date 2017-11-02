@@ -1,0 +1,24 @@
+<template>
+  <wxc-price class="price-demo"
+             icon="sup">70.00</wxc-price>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-price': '@minui/wxc-price'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+  .price-demo {
+    font-size: 36rpx;
+    font-weight: bold;
+    color: #ff4422;
+  }
+</style>

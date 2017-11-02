@@ -1,0 +1,44 @@
+<template>
+  <wxc-toast
+    is-show="{{$toast.show}}"
+    text="分享成功"
+    icon="yes"
+    icon-color="#ff5777"
+    ></wxc-toast>
+  <button bindtap="showToast">自定义 icon 颜色的 toast</button>
+</template>
+
+<script>
+  export default {
+    config: {
+      usingComponents: {
+        'wxc-toast': '@minui/wxc-toast'
+      }
+    },
+    data: {
+      $toast: {
+        show: false
+      }
+    },
+
+    methods: {
+      showToast() {
+        this.setData({
+          $toast: {
+            show: true
+          }
+        })
+        setTimeout(() => {
+          this.setData({
+          $toast: {
+            show: false
+          }
+        })
+      }, 1500)
+      }
+    }
+  }
+</script>
+
+<style>
+</style>

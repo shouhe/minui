@@ -1,0 +1,33 @@
+{
+  "demos": [{
+      "id": "default",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_3gd426kj86j35hlabeibe784he329_704x1250.png"
+      ]
+    }, {
+      "id": "center",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_0gf2ha6142gj754h2hbjdggl997k7_708x1248.png"
+      ]
+    }, {
+      "id": "bottom",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_5ce4kelk6i0e0f89gb0bc4acdf47h_704x1256.png"
+      ]
+    }, {
+      "id": "top",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_5i4166408dkhlkhh69c61kicabjf5_698x1248.png"
+      ]
+    }, {
+      "id": "left",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_84d4bajdf4a5c9hk55904a32gccga_706x1250.png"
+      ]
+    }, {
+      "id": "right",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_43kkf5bcf98bkc677d3h3fb6aje88_710x1242.png"
+      ]
+    }]
+}

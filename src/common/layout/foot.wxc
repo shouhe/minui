@@ -1,0 +1,17 @@
+<template>
+  <navigator url="/pages/home/index">
+    <image class="banner" mode="widthFix" src="https://s10.mogucdn.com/mlcdn/c45406/171016_7a586lcbei8fjlgh70d63ba40l6c6_750x100.png"></image>
+  </navigator>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+.banner {
+  width: 100%;
+}
+</style>

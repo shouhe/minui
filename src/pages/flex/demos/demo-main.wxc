@@ -1,0 +1,104 @@
+<template>
+  <wxc-flex class="wrap" main="{{main}}">
+    <view class="item">栏 1</view>
+    <view class="item">栏 2</view>
+    <view class="item">栏 3</view>
+  </wxc-flex>
+
+  <view class="layout-code">
+    ＜wxc-flex <view class="layout-code__point">main="{{main}}"</view>＞...＜/wxc-flex＞
+  </view>
+
+  <view class="setting-button" bindtap="setMainToStart">启点排列(默认)</view>
+  <view class="setting-button" bindtap="setMainToEnd">终点排列</view>
+  <view class="setting-button" bindtap="setMainToBetween">两端对齐</view>
+  <view class="setting-button" bindtap="setMainToCenter">居中对齐</view>
+  <view class="setting-button" bindtap="setMainToAround">等间分布</view>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-flex': '@minui/wxc-flex'
+    }
+  },
+  data: {
+    main: 'left'
+  },
+  methods: {
+    setMainToStart: function () {
+      this.setData({
+        main: 'start'
+      })
+    },
+    setMainToEnd: function () {
+      this.setData({
+        main: 'end'
+      })
+    },
+    setMainToBetween: function () {
+      this.setData({
+        main: 'between'
+      })
+    },
+    setMainToCenter: function () {
+      this.setData({
+        main: 'center'
+      })
+    },
+    setMainToAround: function () {
+      this.setData({
+        main: 'around'
+      })
+    }
+  }
+}
+</script>
+
+<style>
+  .wrap {
+    display: block;
+    padding: 10rpx;
+    background: #696969;
+  }
+  .item {
+    min-width: 100rpx;
+    min-height: 100rpx;
+    font-size: 22rpx;
+    text-align: center;
+  }
+  .item:nth-of-type(odd) {
+    line-height: 30rpx;
+    background: #afdde3
+  }
+  .item:nth-of-type(2n) {
+    line-height: 50rpx;
+    background: #f397b2
+  }
+
+  .setting-button {
+    display: inline-block;
+    line-height: 50rpx;
+    margin: 20rpx 10rpx 0 0;
+    padding: 2rpx 20rpx;
+    border-radius: 6rpx;
+    background: #31b0d5;
+    color: #ffffff;
+    font-size: 18rpx;
+    text-align: center;
+  }
+
+  .layout-code {
+    padding: 15rpx;
+    background: #222222;
+    color: #FFFFFF;
+    font-size: 20rpx;
+    font-family: Monaco;
+  }
+  .layout-code__point {
+    display: inline-block;
+    padding: 0 5rpx;
+    background: #444444;
+  }
+</style>

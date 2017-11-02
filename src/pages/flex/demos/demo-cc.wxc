@@ -1,0 +1,54 @@
+<template>
+  <wxc-flex class="wrap" main="center" cross="center">
+    <view class="item"></view>
+    <view class="item"></view>
+  </wxc-flex>
+
+  <view class="layout-code">
+    ＜wxc-flex <view class="layout-code__point">main="center" cross="center"</view>＞...＜/wxc-flex＞
+  </view>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-flex': '@minui/wxc-flex'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+  .wrap {
+    display: block;
+    height: 300rpx;
+    padding: 10rpx;
+    background: #696969;
+  }
+  .item {
+    min-width: 100rpx;
+    min-height: 100rpx;
+  }
+  .item:nth-of-type(odd) {
+    background: #afdde3
+  }
+  .item:nth-of-type(2n) {
+    background: #f397b2
+  }
+
+  .layout-code {
+    padding: 15rpx;
+    background: #222222;
+    color: #FFFFFF;
+    font-size: 20rpx;
+    font-family: Monaco;
+  }
+  .layout-code__point {
+    display: inline-block;
+    padding: 0 5rpx;
+    background: #444444;
+  }
+</style>

@@ -1,0 +1,44 @@
+<template>
+  <wxc-toast
+    is-show="{{$toast.show}}"
+    icon-image="https://s10.mogucdn.com//mlcdn/c45406/171017_885a650c746k7hajhf04aja566h1i_68x68.png"
+    text="{{$toast.title}}"></wxc-toast>
+  <button bindtap="showToast">自定义 icon 图片的 toast</button>
+</template>
+
+<script>
+  export default {
+    config: {
+      usingComponents: {
+        'wxc-toast': '@minui/wxc-toast'
+      }
+    },
+    data: {
+      $toast: {
+        show: false,
+        title: ""
+      }
+    },
+    methods: {
+      showToast() {
+        this.setData({
+          $toast: {
+            show: true,
+            title: "自定义 icon 图片"
+          }
+        });
+        setTimeout(() => {
+         this.setData({
+         $toast: {
+         show: false,
+         title: ''
+         }
+         })
+         }, 1500)
+      }
+    }
+  }
+</script>
+
+<style>
+</style>

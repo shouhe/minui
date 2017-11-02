@@ -1,0 +1,32 @@
+<template>
+  <wxc-mask status="{{maskStatus}}" opacity="0.3"></wxc-mask>
+
+  <button bindtap="showMask">自定义透明度</button>
+</template>
+
+
+<script>
+  export default {
+    config: {
+      usingComponents: {
+        'wxc-mask': '@minui/wxc-mask'
+      }
+    },
+
+    data: {
+      maskStatus: 'hide'
+    },
+
+    methods: {
+      showMask() {
+        this.setData({
+          maskStatus: 'show'
+        })
+      }
+    }
+  }
+</script>
+
+<style>
+
+</style>

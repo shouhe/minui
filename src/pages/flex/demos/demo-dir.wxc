@@ -1,0 +1,98 @@
+<template>
+  <wxc-flex class="wrap" dir="{{dir}}">
+    <view class="item">栏 1</view>
+    <view class="item">栏 2</view>
+    <view class="item">栏 3</view>
+  </wxc-flex>
+
+  <view class="layout-code">
+    ＜wxc-flex <view class="layout-code__point">dir="{{dir}}"</view>＞...＜/wxc-flex＞
+  </view>
+
+  <view class="setting-button" bindtap="setDirToLeft">水平正序(默认)</view>
+  <view class="setting-button" bindtap="setDirToRight">水平倒序</view>
+  <view class="setting-button" bindtap="setDirToTop">垂直正序</view>
+  <view class="setting-button" bindtap="setDirToBottom">垂直倒序</view>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-flex': '@minui/wxc-flex'
+    }
+  },
+  data: {
+    dir: 'left'
+  },
+  methods: {
+    setDirToLeft: function () {
+      this.setData({
+        dir: 'left'
+      })
+    },
+    setDirToRight: function () {
+      this.setData({
+        dir: 'right'
+      })
+    },
+    setDirToTop: function () {
+      this.setData({
+        dir: 'top'
+      })
+    },
+    setDirToBottom: function () {
+      this.setData({
+        dir: 'bottom'
+      })
+    }
+  }
+}
+</script>
+
+<style>
+  .wrap {
+    display: block;
+    padding: 10rpx;
+    background: #696969;
+  }
+  .item {
+    min-width: 100rpx;
+    min-height: 100rpx;
+    font-size: 22rpx;
+    text-align: center;
+  }
+  .item:nth-of-type(odd) {
+    line-height: 30rpx;
+    background: #afdde3
+  }
+  .item:nth-of-type(2n) {
+    line-height: 50rpx;
+    background: #f397b2
+  }
+
+  .setting-button {
+    display: inline-block;
+    line-height: 50rpx;
+    margin: 20rpx 10rpx 0 0;
+    padding: 2rpx 20rpx;
+    border-radius: 6rpx;
+    background: #31b0d5;
+    color: #ffffff;
+    font-size: 18rpx;
+    text-align: center;
+  }
+
+  .layout-code {
+    padding: 15rpx;
+    background: #222222;
+    color: #FFFFFF;
+    font-size: 20rpx;
+    font-family: Monaco;
+  }
+  .layout-code__point {
+    display: inline-block;
+    padding: 0 5rpx;
+    background: #444444;
+  }
+</style>

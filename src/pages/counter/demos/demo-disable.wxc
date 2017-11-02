@@ -1,0 +1,22 @@
+<template>
+  <wxc-counter disabled="{{true}}" number=1234 max=10000 min="1" bind:changenumber="onChangeNumber"></wxc-counter>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-counter': '@minui/wxc-counter'
+    }
+  },
+  data: {},
+  methods: {
+    onChangeNumber (e) {
+      console.log(e.detail);
+    }
+  }
+}
+</script>
+
+<style>
+</style>

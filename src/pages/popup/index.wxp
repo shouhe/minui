@@ -1,0 +1,51 @@
+<template>
+  <example title="popup" desc="基础弹层">
+
+    <example-demo title="默认居中，无动画" desc="默认的 Popup 样式，内容居中，无动画">
+      <demo-default></demo-default>
+    </example-demo>
+
+    <example-demo title="居中，有动画" desc="居中的 Popup 可用于Dialog、确认提醒等">
+      <demo-center></demo-center>
+    </example-demo>
+
+    <example-demo title="居上，有动画" desc="居上的 Popup 可用于顶部提醒、顶部菜单等功能">
+      <demo-top></demo-top>
+    </example-demo>
+
+    <example-demo title="居下，有动画" desc="居下的 Popup 可用于弹出框、选择器等">
+      <demo-bottom></demo-bottom>
+    </example-demo>
+
+    <example-demo title="居左，有动画" desc="居左的 Popup 可用于左侧的侧边栏、左侧的弹出提醒等">
+      <demo-left></demo-left>
+    </example-demo>
+
+    <example-demo title="居右，有动画" desc="居右的 Popup 可用于右侧的侧边栏、右侧的弹出提醒等">
+      <demo-right></demo-right>
+    </example-demo>
+
+  </example>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'example': '@minui/wxc-example',
+      'example-demo': '@minui/wxc-example-demo',
+      'example-md': '@minui/wxc-example-md',
+      'demo-default': './demos/demo-default',
+      'demo-center': './demos/demo-center',
+      'demo-top': './demos/demo-top',
+      'demo-bottom': './demos/demo-bottom',
+      'demo-left': './demos/demo-left',
+      'demo-right': './demos/demo-right'
+    }
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

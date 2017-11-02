@@ -1,0 +1,21 @@
+<template>
+<wxc-countdown countdown="{{countdown}}" format="{{format}}"></wxc-countdown>
+  </template>
+
+  <script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-countdown': '@minui/wxc-countdown'
+    }
+  },
+  data: {
+    countdown: 10000,
+    format: 'hh:mm:ss'
+  },
+  methods: {}
+}
+</script>
+
+<style>
+</style>

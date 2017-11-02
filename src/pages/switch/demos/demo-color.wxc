@@ -1,0 +1,18 @@
+<template>
+  <wxc-switch active-color="#44DB5E"></wxc-switch>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-switch': '@minui/wxc-switch'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+</style>

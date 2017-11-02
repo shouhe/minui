@@ -1,0 +1,28 @@
+{
+  "demos": [
+    {
+      "id": "default",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_5lfck0cl28l406bkigfaidjggakh9_625x133.jpg"
+      ]
+    },
+    {
+      "id": "animate",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_67dlb3egdjlkj56k56d32b4i689d1_633x165.jpg"
+      ]
+    },
+    {
+      "id": "multi",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_0a98le3l9gf525g515lil73kh6l7h_640x129.jpg"
+      ]
+    },
+    {
+      "id": "user",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171020_1ef9c04kddgb1efae6k2h1084h373_629x134.jpg"
+      ]
+    }
+  ]
+}

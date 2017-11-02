@@ -1,0 +1,46 @@
+<template>
+  <wxc-tab
+    bind:tabchange="onClick"
+    default-index="{{0}}"
+    component-id="c4"
+  >
+    <wxc-tab-panel
+      wx:for="{{tabs}}"
+      wx:for-item="tab"
+      wx:key="{{tab.content}}"
+      tab-index="{{index}}"
+      component-id="c4"
+      label="{{tab.title}}"
+    >
+      {{tab.content}}
+    </wxc-tab-panel>
+  </view>
+
+  </wxc-tab>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-tab': '@minui/wxc-tab',
+      'wxc-tab-panel': '@minui/wxc-tab/panel'
+    }
+  },
+  data: {
+    tabs: [
+      {title: '选项一', content: '内容一'},
+      {title: '选项二', content: '内容二'},
+      {title: '选项三', content: '内容三'}
+    ]
+  },
+  methods: {
+    onClick: function(e) {
+      console.log(`ComponentId:${e.detail.componentId},you selected:${e.detail.key}`);
+    }
+  }
+}
+</script>
+
+<style>
+</style>

@@ -1,0 +1,17 @@
+<template>
+  <wxc-price>70.00</wxc-price>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-price': '@minui/wxc-price'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style></style>

@@ -1,0 +1,18 @@
+{
+  "name": "@minui/wxc-popup",
+  "version": "1.0.0",
+  "description": "MinUI 小程序组件 - 弹出层",
+  "main": "dist/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meili/minui/tree/master/src/packages/wxc-popup"
+  },
+  "author": "Min Team",
+  "license": "MIT",
+  "config": {
+    "min": {
+      "component": true
+    }
+  }
+}

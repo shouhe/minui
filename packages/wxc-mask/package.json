@@ -1,0 +1,18 @@
+{
+  "name": "@minui/wxc-mask",
+  "version": "1.0.0",
+  "description": "MinUI 小程序组件 - 遮罩层",
+  "main": "dist/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meili/minui/tree/master/src/packages/wxc-mask"
+  },
+  "author": "Min Team",
+  "license": "MIT",
+  "config": {
+    "min": {
+      "component": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<template>
+  <wxc-label class="label">双11价</wxc-label>
+  <wxc-label class="label">限时折扣</wxc-label>
+  <wxc-label class="label">
+    <wxc-icon type="pintuan" size="20"></wxc-icon> 拼团秒杀
+  </wxc-label>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-label': '@minui/wxc-label',
+      'wxc-icon': '@minui/wxc-icon'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+  .label {
+    margin-right: 20rpx;
+  }
+</style>

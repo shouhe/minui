@@ -1,0 +1,19 @@
+{
+  "name": "minui",
+  "description": "MinUI",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meili/minui.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@minui/wxc-example": "^1.0.0",
+    "@minui/wxc-example-demo": "^1.0.0",
+    "@minui/wxc-example-md": "^1.0.0"
+  },
+  "minConfig": {
+    "projectType": "component"
+  }
+}

@@ -1,0 +1,18 @@
+<template>
+  <wxc-elip>这是一段单行截取的文字。这是一段单行截取的文字。这是一段单行截取的文字。这是一段单行截取的文字。</wxc-elip>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-elip': '@minui/wxc-elip'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+</style>

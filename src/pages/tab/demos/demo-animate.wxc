@@ -1,0 +1,49 @@
+<template>
+  <wxc-tab
+    bind:tabchange="onClick"
+    default-index="{{4}}"
+    active-text-color="#108ee9"
+    active-line-color="#108ee9"
+    component-id="c1"
+    animate="{{true}}"
+  >
+    <wxc-tab-panel
+      wx:for="{{tabs}}"
+      wx:for-item="tab"
+      wx:key="{{tab.content}}"
+      tab-index="{{index}}"
+      component-id="c1"
+      label="{{tab.title}}"
+    >
+      {{tab.content}}
+    </wxc-tab-panel>
+  </view>
+
+  </wxc-tab>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-tab': '@minui/wxc-tab',
+      'wxc-tab-panel': '@minui/wxc-tab/panel'
+    }
+  },
+  data: {
+    tabs: [
+      {title: '选项一', content: '内容一'},
+      {title: '选项二', content: '内容二'},
+      {title: '选项三', content: '内容三'}
+    ]
+  },
+  methods: {
+    onClick: function(e) {
+      console.log(`ComponentId:${e.detail.componentId},you selected:${e.detail.key}`);
+    }
+  }
+}
+</script>
+
+<style>
+</style>

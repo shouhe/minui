@@ -1,0 +1,17 @@
+<template>
+  <wxc-progress radius="5"></wxc-progress>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-progress': '@minui/wxc-progress'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style></style>

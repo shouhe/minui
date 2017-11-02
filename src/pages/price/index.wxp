@@ -1,0 +1,63 @@
+<template>
+  <example title="price" desc="价格">
+
+    <example-demo title="默认姿势" desc="">
+      <demo-default></demo-default>
+    </example-demo>
+
+    <example-demo title="value 传值" desc="优先级高于标签内嵌套值">
+      <demo-value></demo-value>
+    </example-demo>
+
+    <example-demo title="删除态" desc="">
+      <demo-del></demo-del>
+    </example-demo>
+
+    <example-demo title="价格取整" desc="仅对 value 传值有效">
+      <demo-int></demo-int>
+    </example-demo>
+
+    <example-demo title="保留一位小数" desc="仅对 value 传值有效">
+      <demo-fixed></demo-fixed>
+    </example-demo>
+
+    <example-demo title="价格符号居上" desc="">
+      <demo-sup></demo-sup>
+    </example-demo>
+
+    <example-demo title="价格符号居下" desc="">
+      <demo-sub></demo-sub>
+    </example-demo>
+
+    <example-demo title="小数部分字号缩小" desc="">
+      <demo-small></demo-small>
+    </example-demo>
+
+  </example>
+</template>
+
+<script>
+
+  export default {
+    config: {
+      usingComponents: {
+        'example': '@minui/wxc-example',
+        'example-demo': '@minui/wxc-example-demo',
+        'example-md': '@minui/wxc-example-md',
+        'demo-default': './demos/demo-default',
+        'demo-value': './demos/demo-value',
+        'demo-del': './demos/demo-del',
+        'demo-sub': './demos/demo-sub',
+        'demo-sup': './demos/demo-sup',
+        'demo-int': './demos/demo-int',
+        'demo-fixed': './demos/demo-fixed',
+        'demo-small': './demos/demo-small'
+      }
+    },
+    data: {}
+  }
+</script>
+
+<style>
+
+</style>

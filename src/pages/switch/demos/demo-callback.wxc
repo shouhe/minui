@@ -1,0 +1,39 @@
+<template>
+  <wxc-switch bindswitch="onSwitch"></wxc-switch>
+  <wxc-toast is-show="{{isShow}}" text="{{text}}"></wxc-toast>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-switch': '@minui/wxc-switch',
+      'wxc-toast': '@minui/wxc-toast'
+    }
+  },
+  data: {
+    isShow: false,
+    text: ''
+  },
+  methods: {
+    onSwitch: function(param) {
+      console.log('onSwitch');
+      console.log(param);
+
+      this.setData({
+        isShow: true,
+        text: param.detail.checked ? '开启' : '关闭'
+      });
+
+      setTimeout(() => {
+        this.setData({
+          isShow: false
+        })
+      }, 600)
+    }
+  }
+}
+</script>
+
+<style>
+</style>

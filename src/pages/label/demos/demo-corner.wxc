@@ -1,0 +1,46 @@
+<template>
+  <view class="wrap">
+    <image class="img" src="https://s10.mogucdn.com/mlcdn/c45406/171025_462jgf26k954504k111664ck0ek5j_640x640.jpg"></image>
+    <wxc-label class="label" type="corner">抽奖团</wxc-label>
+  </view>
+
+  <view class="wrap">
+    <image class="img" src="https://s10.mogucdn.com/mlcdn/c45406/171025_83j9gbl58kk4f04e7kjd5l82a6i92_640x640.jpg"></image>
+    <wxc-label class="label" type="corner">老带新</wxc-label>
+  </view>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-label': '@minui/wxc-label',
+      'wxc-icon': '@minui/wxc-icon'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+  .wrap {
+    display: inline-block;
+    width: 250rpx;
+    height: 250rpx;
+    line-height: 1;
+    margin-right: 20rpx;
+    border-radius: 8rpx;
+    position: relative;
+    overflow: hidden;
+  }
+  .img {
+    width: 250rpx;
+    height: 250rpx;
+  }
+  .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+</style>

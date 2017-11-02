@@ -1,0 +1,18 @@
+<template>
+  <wxc-abnor type="MESSAGE"></wxc-abnor>
+</template>
+
+<script>
+  export default {
+    config: {
+      usingComponents: {
+        'wxc-abnor': '@minui/wxc-abnor'
+      }
+    },
+    data: {},
+    methods: {}
+  }
+</script>
+
+<style>
+</style>

@@ -1,0 +1,22 @@
+<template>
+  <wxc-loadmore
+    is-end="{{true}}"
+    text="到底啦"
+  >
+  </wxc-loadmore>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-loadmore': '@minui/wxc-loadmore'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+</style>

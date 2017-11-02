@@ -1,0 +1,36 @@
+<template>
+  <button bindtap="showDialog">换行内容+确认按钮</button>
+  <wxc-dialog class="wxc-dialog" title="标题" content="告知当前状态，信息和解决方案，文字换行的情况。" confirm-text="知道了" bindconfirm="onConfirm" bindcancel="onCancel"></wxc-dialog>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-dialog': '@minui/wxc-dialog'
+    }
+  },
+  data: {},
+  methods: {
+    showDialog() {
+      let dialogComponent = this.selectComponent('.wxc-dialog')
+      dialogComponent && dialogComponent.show();
+    },
+    hideDialog() {
+      let dialogComponent = this.selectComponent('.wxc-dialog')
+      dialogComponent && dialogComponent.hide();
+    },
+    onConfirm () {
+      console.log('点击了确认按钮')
+      this.hideDialog()
+    },
+    onCancel () {
+      console.log('点击了取消按钮')
+      this.hideDialog()
+    }
+  }
+}
+</script>
+
+<style>
+</style>

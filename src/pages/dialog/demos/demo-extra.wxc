@@ -1,0 +1,43 @@
+<template>
+  <button bindtap="showDialog">标题+内容+额外内容+确认按钮</button>
+  <wxc-dialog class="wxc-dialog" title="弹窗" content="这里可能是说明文字" confirm-text="主按钮" bindconfirm="onConfirm" bindcancel="onCancel">
+    <input class="input" placeholder="自定义的额外内容" />
+  </wxc-dialog>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-dialog': '@minui/wxc-dialog'
+    }
+  },
+  data: {},
+  methods: {
+    showDialog() {
+      let dialogComponent = this.selectComponent('.wxc-dialog')
+      dialogComponent && dialogComponent.show();
+    },
+    hideDialog() {
+      let dialogComponent = this.selectComponent('.wxc-dialog')
+      dialogComponent && dialogComponent.hide();
+    },
+    onConfirm () {
+      console.log('点击了确认按钮')
+      this.hideDialog()
+    },
+    onCancel () {
+      console.log('点击了取消按钮')
+      this.hideDialog()
+    }
+  }
+}
+</script>
+
+<style>
+.input {
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+</style>

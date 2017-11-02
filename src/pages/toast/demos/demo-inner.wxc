@@ -1,0 +1,39 @@
+<template>
+  <wxc-toast is-show="{{$toast.show}}">Hello World</wxc-toast>
+  <button bindtap="showToast">子元素传值</button>
+</template>
+
+<script>
+  export default {
+    config: {
+      usingComponents: {
+        'wxc-toast': '@minui/wxc-toast'
+      }
+    },
+    data: {
+      $toast: {
+        show: false
+      }
+    },
+    methods: {
+      showToast() {
+        this.setData({
+          $toast: {
+            show: true
+          }
+        })
+
+        setTimeout(() => {
+          this.setData({
+            $toast: {
+              show: false
+            }
+          })
+        }, 1500)
+      }
+    }
+  }
+</script>
+
+<style>
+</style>

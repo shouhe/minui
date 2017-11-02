@@ -1,0 +1,10 @@
+.idea
+.DS_Store
+npm-debug.log
+yarn-error.log
+selenium-debug.log
+lerna-debug.log
+/node_modules
+/dist
+/packages/*/node_modules
+/packages/*/dist

@@ -1,0 +1,52 @@
+{
+  "demos": [
+    {
+      "id": "default",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_0lfgade2a0aj98c31b64i5lbl07i9_400x300.png"
+      ]
+    },
+    {
+      "id": "value",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_0lfgade2a0aj98c31b64i5lbl07i9_400x300.png"
+      ]
+    },
+    {
+      "id": "del",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_3fa08e22c78f06h8ab2c6f37j10lb_400x300.png"
+      ]
+    },
+    {
+      "id": "int",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_21200kgelfa9ble3ciikl108ccb15_400x300.png"
+      ]
+    },
+    {
+      "id": "fixed",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_05kegg33jdhe9cd56ed0jhj4c9153_400x300.png"
+      ]
+    },
+    {
+      "id": "sup",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_15b3eaigj5fhk0dece2h9gd95dfjl_400x300.png"
+      ]
+    },
+    {
+      "id": "sub",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_5bh4d8ii6e768gc2365216hg3dk8k_400x300.png"
+      ]
+    },
+    {
+      "id": "small",
+      "images": [
+        "https://s10.mogucdn.com/mlcdn/c45406/171102_10bibl2a87cgl24lhdkb4aag4i44l_400x300.png"
+      ]
+    }
+  ]
+}

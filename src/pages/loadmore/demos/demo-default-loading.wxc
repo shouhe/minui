@@ -1,0 +1,18 @@
+<template>
+  <wxc-loadmore></wxc-loadmore>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-loadmore': '@minui/wxc-loadmore'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+</style>

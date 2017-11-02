@@ -1,0 +1,23 @@
+<template>
+  <wxc-label class="label" type="fill" type-color="#747bb1">直播中</wxc-label>
+  <wxc-label class="label" type="fill" type-color="#ffe8ee" text-color="#ff5577">已团8.7万件</wxc-label>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-label': '@minui/wxc-label',
+      'wxc-icon': '@minui/wxc-icon'
+    }
+  },
+  data: {},
+  methods: {}
+}
+</script>
+
+<style>
+  .label {
+    margin-right: 20rpx;
+  }
+</style>
