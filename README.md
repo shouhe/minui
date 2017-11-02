@@ -4,9 +4,9 @@
 
 ![](https://img.shields.io/badge/Build-Passing-brightgreen.svg) ![](https://img.shields.io/badge/License-MIT-lightgrey.svg) ![](https://img.shields.io/badge/%E5%9F%BA%E7%A1%80%E5%BA%93-1.6.0%2B-brightgreen.svg) ![](https://img.shields.io/badge/Powered%20by-Min-28b1b0.svg)
 
-![](http://s3.mogucdn.com/mlcdn/c45406/171101_850g622e33552bb75f74ael4k563f_3882x1734.png)
+![](http://s3.mogucdn.com/mlcdn/c45406/171101_850g622e33552bb75f74ael4k563f_3882x1734.png_1200x999.jpg)
 
-![](http://s3.mogucdn.com/mlcdn/c45406/171025_00h0heed7c1a5iid87ch299h3l8j4_3882x1734.png)
+![](http://s3.mogucdn.com/mlcdn/c45406/171025_00h0heed7c1a5iid87ch299h3l8j4_3882x1734.png_1200x999.jpg)
 
 ### ○ 缘起
 
@@ -31,10 +31,11 @@ Min 是一套面向小程序的开发环境，提供 [Min Cli](https://github.co
 #### 本地体验
 
 1. Clone MinUI 仓库到本地；
-2. 微信开发者工具中新建一个小程序，目录指向 MinUI 的 dist/ 文件夹；
-3. Done~
+2. 终端在 MinUI 根目录下执行 `$ min dev`，生成 dist/ 目录；
+3. 微信开发者工具 —— 新建一个小程序，目录指向生成的 dist/；
+4. Done~
 
-PS：如想尝试修改源码看效果，在已安装了 Min 开发环境的前提下，请在命令行里输入 `$ min dev`，这样任何的修改都会在微信开发者工具中自动刷新显示。
+PS：如想尝试修改源码，终端里先执行 `$ min dev`。这样任何的修改，都会在微信开发者工具中自动刷新显示。
 
 #### 开发&应用
 
@@ -87,13 +88,12 @@ PS：如想尝试修改源码看效果，在已安装了 Min 开发环境的前�
             - LICENSE
         - ...
     - src // 页面源码
-        - pages
-            - loading // loading 组件示例
-                - demos
-                    - demo-default.wxc // 一个 demo 示例，在 index.wxp 中引入
-                    - ...
-                - docs // 组件文档
-                - index.wxp // demo 页
+        - common
+        - pages // 组件 demo 页面
+            - loading
+                - demos // demo 汇总，在 index.wxp 中引入和显示
+                - config.json
+                - index.wxp
             - ...
     - .editorconfig
     - .gitignore
@@ -110,9 +110,8 @@ PS：如想尝试修改源码看效果，在已安装了 Min 开发环境的前�
 本项目基于 [MIT](http://opensource.org/licenses/MIT) License，请自由的享受、参与开源。
 
 
-
 ### ○ 更新记录
 
-#### v0.0.1（2017.10.24）
+#### v1.0.0（2017.10.24）
 
 - 初始版本
