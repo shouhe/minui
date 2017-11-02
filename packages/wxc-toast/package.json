@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/meili/minui/tree/master/src/packages/wxc-toast"
+    "url": "https://github.com/meili/minui/tree/master/packages/wxc-toast"
   },
   "author": "Min Team",
   "license": "MIT",
