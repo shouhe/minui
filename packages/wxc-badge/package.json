@@ -6,9 +6,12 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/meili/minui/tree/master/src/packages/wxc-badge"
+    "url": "https://github.com/meili/minui/tree/master/packages/wxc-badge"
   },
   "author": "Min Team",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "config": {
     "min": {

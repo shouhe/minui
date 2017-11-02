@@ -10,6 +10,9 @@
   },
   "author": "Min Team",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "config": {
     "min": {
       "component": true
