@@ -1,6 +1,6 @@
 {
   "name": "@minui/wxc-loading",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MinUI 小程序组件 - 加载提示",
   "main": "dist/index.js",
   "repository": {
