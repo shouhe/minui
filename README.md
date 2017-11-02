@@ -32,10 +32,11 @@ Min 是一套面向小程序的开发环境，提供 [Min Cli](https://github.co
 
 #### 本地体验
 
-1. Clone MinUI 仓库到本地；
-2. 终端在 MinUI 根目录下执行 `$ min dev`，生成 dist/ 目录；
-3. 微信开发者工具 —— 新建一个小程序，目录指向生成的 dist/；
-4. Done~
+1. 安装 Min 的环境 `$ npm install -g @mindev/min-cli`
+2. Clone MinUI 仓库到本地；
+3. 终端在 MinUI 根目录下执行 `$ min dev`，生成 dist/ 目录；
+4. 微信开发者工具 —— 新建一个小程序，目录指向生成的 dist/；
+5. Done~
 
 PS：如想尝试修改源码，终端里先执行 `$ min dev`。这样任何的修改，都会在微信开发者工具中自动刷新显示。
 
