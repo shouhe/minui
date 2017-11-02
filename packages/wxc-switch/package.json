@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/meili/minui/tree/master/src/packages/wxc-switch"
+    "url": "https://github.com/meili/minui/tree/master/packages/wxc-switch"
   },
   "author": "Min Team",
   "license": "ISC",
