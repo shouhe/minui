@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "MinUI 小程序组件 - 文本截断",
   "main": "dist/index.js",
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/meili/minui/tree/master/packages/wxc-elip"
