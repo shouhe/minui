@@ -8,15 +8,13 @@
 $ min install @minui/wxc-badge
 ```
 
-> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli) ☟
 
 ```
 $ npm install -g @mindev/min-cli
 ```
 
 For more information about MinUI, please visit [MinUI in Github](https://github.com/meili/minui).
-
-
 
 ## API
 
@@ -29,6 +27,10 @@ For more information about MinUI, please visit [MinUI in Github](https://github.
 | type | [可选] 设置标记类型，职位 dot 显示为弱提示的圆点 |
 
 ##  ChangeLog
+
+#### v1.0.2（2017.11.02）
+
+- update .npmignore
 
 #### v1.0.1（2017.10.24）
 

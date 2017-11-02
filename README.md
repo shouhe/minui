@@ -1,6 +1,6 @@
 # MinUI
 
-基于规范的小程序 UI 组件库，简洁、轻量、工具化。
+基于规范的小程序 UI 组件库，轻量、易用、工具化。
 
 ![](https://img.shields.io/badge/Build-Passing-brightgreen.svg) ![](https://img.shields.io/badge/License-MIT-lightgrey.svg) ![](https://img.shields.io/badge/%E5%9F%BA%E7%A1%80%E5%BA%93-1.6.0%2B-brightgreen.svg) ![](https://img.shields.io/badge/Powered%20by-Min-28b1b0.svg)
 

@@ -2,7 +2,7 @@
   <view class="index">
     <view class="index-hd">
       <image class="index-logo" src="https://s10.mogucdn.com/mlcdn/c45406/171016_6d1e81fc4f85i4099hll34k8k2j77_356x356.png"></image>
-      <view class="index-desc">基于规范的小程序组件库，简洁、轻量、工具化</view>
+      <view class="index-desc">基于规范的小程序组件库，轻量、易用、工具化</view>
     </view>
 
     <view class="index-bd">

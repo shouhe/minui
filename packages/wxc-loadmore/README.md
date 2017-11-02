@@ -8,7 +8,7 @@
 $ min install @minui/wxc-loadmore
 ```
 
-> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli) ☟
 
 ```
 $ npm install -g @mindev/min-cli
@@ -27,6 +27,10 @@ For more information about MinUI, please visit [MinUI in Github](https://github.
 |`text`               | [说明]：文案。<br>[类型]：`String`<br>[默认值]：`[到底]随机 / [加载] 加载中...` <br>     |
 
 ##  ChangeLog
+
+#### v1.0.2（2017.11.02）
+
+- update .npmignore
 
 #### v1.0.1（2017.10.24）
 

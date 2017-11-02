@@ -8,7 +8,7 @@
 $ min install @minui/wxc-tab
 ```
 
-> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli) ☟
 
 ```
 $ npm install -g @mindev/min-cli
@@ -49,6 +49,10 @@ For more information about MinUI, please visit [MinUI in Github](https://github.
 |`component-id`        | [说明]：同时调用两个tab时，需要指定component-id。<br>[类型]：`String`<br>
 
 ##  ChangeLog
+
+#### v1.0.2（2017.11.02）
+
+- update .npmignore
 
 #### v1.0.1（2017.10.24）
 

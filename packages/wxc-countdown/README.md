@@ -8,7 +8,7 @@
 $ min install @minui/wxc-countdown
 ```
 
-> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli) ☟
 
 ```
 $ npm install -g @mindev/min-cli
@@ -31,6 +31,10 @@ For more information about MinUI, please visit [MinUI in Github](https://github.
 | bind:endcount | [说明]：结束事件，倒计时结束时触发 |
 
 ##  ChangeLog
+
+#### v1.0.2（2017.11.02）
+
+- update .npmignore
 
 #### v1.0.1（2017.10.24）
 

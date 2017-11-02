@@ -8,7 +8,7 @@
 $ min install @minui/wxc-mask
 ```
 
-> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli) ☟
 
 ```
 $ npm install -g @mindev/min-cli
@@ -28,6 +28,10 @@ For more information about MinUI, please visit [MinUI in Github](https://github.
 |`content-align`       | [说明]：设置遮罩层 content 定位位置。<br>[类型]：`String`<br>[默认值]：`"tl"` <br>[可选值]：`"tl"`:页面左上角；`"tr"`:页面右上角；`"bl"`:页面左下角；`"br"`:页面右下角。 <br>  |
 
 ##  ChangeLog
+
+#### v1.0.2（2017.11.02）
+
+- update .npmignore
 
 #### v1.0.1（2017.10.24）
 

@@ -8,7 +8,7 @@
 $ min install @minui/wxc-label
 ```
 
-> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli) ☟
 
 ```
 $ npm install -g @mindev/min-cli
@@ -28,6 +28,10 @@ For more information about MinUI, please visit [MinUI in Github](https://github.
 |`text-color`         | String 文字配色。type="fill" 下生效，默认值 #FFFFFF |
 
 ##  ChangeLog
+
+#### v1.0.2（2017.11.02）
+
+- update .npmignore
 
 #### v1.0.1（2017.10.24）
 

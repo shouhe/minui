@@ -8,7 +8,7 @@
 $ min install @minui/wxc-flex
 ```
 
-> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli) ☟
 
 ```
 $ npm install -g @mindev/min-cli
@@ -29,6 +29,10 @@ For more information about MinUI, please visit [MinUI in Github](https://github.
 |`wrap`         | 换行设置。取值范围：<br><br> - nowrap：不换行(默认)  <br> - wrap：正序换行 <br> - reverse：倒序换行       |
 
 ##  ChangeLog
+
+#### v1.0.2（2017.11.02）
+
+- update .npmignore
 
 #### v1.0.1（2017.10.24）
 

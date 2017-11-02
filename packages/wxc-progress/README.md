@@ -8,7 +8,7 @@
 $ min install @minui/wxc-progress
 ```
 
-> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli) ☟
 
 ```
 $ npm install -g @mindev/min-cli
@@ -29,6 +29,10 @@ For more information about MinUI, please visit [MinUI in Github](https://github.
 | radius | [可选] 圆角角度，单位 rpx, 默认值 15|
 
 ##  ChangeLog
+
+#### v1.0.2（2017.11.02）
+
+- update .npmignore
 
 #### v1.0.1（2017.10.24）
 

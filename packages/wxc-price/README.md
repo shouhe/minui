@@ -8,7 +8,7 @@
 $ min install @minui/wxc-price
 ```
 
-> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli) ☟
 
 ```
 $ npm install -g @mindev/min-cli
@@ -29,6 +29,10 @@ For more information about MinUI, please visit [MinUI in Github](https://github.
 | decimal | [可选] 小数部分显示规则 <br/><br/> - 如不设置，显示 2 位小数，字号同整数部分一致 <br/> - 设置为 1，显示 1 位小数，小数部分向下取整 <br/> - 设为 none，不显示小数部分，只显示整数价格 <br/> - 设为 small，小数部分字号缩小|
 
 ##  ChangeLog
+
+#### v1.0.2（2017.11.02）
+
+- update .npmignore
 
 #### v1.0.1（2017.10.24）
 
