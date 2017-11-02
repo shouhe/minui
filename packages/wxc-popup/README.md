@@ -7,6 +7,14 @@
 ``` bash
 $ min install @minui/wxc-popup
 ```
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+
+```
+$ npm install -g @mindev/min-cli
+```
+
+For more information about MinUI, please visit [MinUI in Github](https://github.com/meili/minui).
+
 
 ## API
 

@@ -8,6 +8,15 @@
 $ min install @minui/wxc-dialog
 ```
 
+> Please make sure you have installed [Min-Cli](https://github.com/meili/min-cli)☟
+
+```
+$ npm install -g @mindev/min-cli
+```
+
+For more information about MinUI, please visit [MinUI in Github](https://github.com/meili/minui).
+
+
 ## API
 
 ### Dialog【props】
