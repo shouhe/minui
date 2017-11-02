@@ -9,6 +9,9 @@
     "url": "https://github.com/meili/minui/tree/master/packages/wxc-switch"
   },
   "author": "Min Team",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "ISC",
   "config": {
     "min": {
