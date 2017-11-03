@@ -26,7 +26,7 @@ Min 是一套面向小程序的开发环境，提供 [Min Cli](https://github.co
 
 通过下面的小程序二维码，可以在手机中体验 MinUI（微信基础库版本 1.6.3 以上支持）：
 
-<img width="200" src="https://s10.mogucdn.com/mlcdn/c45406/171101_6k682blbc5j30lj08galbk1k0g95h_1280x1280.jpg" style="display:block;margin:0 auto;" />
+![](http://s3.mogucdn.com/mlcdn/c45406/171103_5l89d0ih87eh9e715065310ekgdea_220x220.png)
 
 > 注：如提示“小程序尚未发布”，就再等等再扫 :p
 
